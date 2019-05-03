@@ -21,16 +21,10 @@ public class MockService {
         return book;
     }
 
-    public Book updateAuthorandPrice_ByName(String book_name, String author,int price){
+    public Book updatePrice_ByName(String book_name, int price){
         Book book = findByName(book_name);
-        book.setAuthor(author);
         book.setPrice(price);
         return book;
     }
 
-    public void addBook(Book book){
-        Book addBook = new Book(book.getName(), book.getAuthor(), book.getPrice());
-        mockRepository.addBook(addBook);
-        return;
-    }
 }

@@ -12,6 +12,8 @@ import repository.MockRepository;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.*;
 
@@ -60,7 +62,16 @@ public class MockServiceTest{
 
     }
 
+    @Test //가격 변동
+    public void Check_set_AuthorandPriceMock(){
 
+        when(mockService.findByName("Pinocchio")).thenReturn(new Book("Pinocchio", "CarloCollodi",12500));
+        when(mockService.updatePrice_ByName("Pinocchio",20000)).thenReturn(new Book("Pinocchio", "CarloCollodi",20000));
 
+        Book book = mockService.updatePrice_ByName("Pinocchio",20000);
+
+        assertThat(book.getPrice(), is(20000));
+
+    }
 
 }
