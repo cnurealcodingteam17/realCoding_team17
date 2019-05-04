@@ -25,7 +25,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/MockRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/MockService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="551">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +57,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/MockServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="229">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,17 +99,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,24 +167,17 @@
             </path>
             <path>
               <item name="BookManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookManagement" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556873535463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556957678454" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
@@ -215,18 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MockServiceTest.bookName_Cinderella_verify">
-    <configuration name="BookTest.checkBookName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BookManagement" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
-      <option name="METHOD_NAME" value="checkBookName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MockServiceTest.bookName_Cinderella_verify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MockServiceTest">
+    <configuration name="MockServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookManagement" />
       <extension name="coverage">
         <pattern>
@@ -236,7 +225,70 @@
       </extension>
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.MockServiceTest" />
-      <option name="METHOD_NAME" value="bookName_Cinderella_verify" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockServiceTest.CheckStockBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.MockServiceTest" />
+      <option name="METHOD_NAME" value="CheckStockBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockServiceTest.TestChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.MockServiceTest" />
+      <option name="METHOD_NAME" value="TestChange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockServiceTest.book_store_bookSize_verify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.MockServiceTest" />
+      <option name="METHOD_NAME" value="book_store_bookSize_verify" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockServiceTest.exeptionTestChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.MockServiceTest" />
+      <option name="METHOD_NAME" value="exeptionTestChange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,8 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockServiceTest.bookName_Cinderella_verify" />
-        <item itemvalue="JUnit.BookTest.checkBookName" />
+        <item itemvalue="JUnit.MockServiceTest" />
+        <item itemvalue="JUnit.MockServiceTest.CheckStockBook" />
+        <item itemvalue="JUnit.MockServiceTest.book_store_bookSize_verify" />
+        <item itemvalue="JUnit.MockServiceTest.exeptionTestChange" />
+        <item itemvalue="JUnit.MockServiceTest.TestChange" />
       </list>
     </recent_temporary>
   </component>
@@ -263,30 +318,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_checkBookName - 2019.05.03 at 14h 52m 51s.xml">
-      <configuration name="BookTest.checkBookName" configurationId="JUnit" />
+    <history-entry file="MockServiceTest_Check_set_AuthorandPriceMock - 2019.05.03 at 19h 23m 41s.xml">
+      <configuration name="MockServiceTest.Check_set_AuthorandPriceMock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_checkBookName - 2019.05.03 at 14h 53m 14s.xml">
-      <configuration name="BookTest.checkBookName" configurationId="JUnit" />
+    <history-entry file="MockServiceTest_TestChange - 2019.05.03 at 20h 24m 46s.xml">
+      <configuration name="MockServiceTest.TestChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_checkBookName - 2019.05.03 at 15h 10m 23s.xml">
-      <configuration name="BookTest.checkBookName" configurationId="JUnit" />
+    <history-entry file="MockServiceTest_TestChange - 2019.05.03 at 20h 25m 11s.xml">
+      <configuration name="MockServiceTest.TestChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_checkBookName - 2019.05.03 at 15h 11m 28s.xml">
-      <configuration name="BookTest.checkBookName" configurationId="JUnit" />
+    <history-entry file="MockServiceTest_exeptionTestChange - 2019.05.03 at 20h 27m 13s.xml">
+      <configuration name="MockServiceTest.exeptionTestChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_checkBookName - 2019.05.03 at 15h 32m 33s.xml">
-      <configuration name="BookTest.checkBookName" configurationId="JUnit" />
+    <history-entry file="MockServiceTest_exeptionTestChange - 2019.05.03 at 20h 27m 47s.xml">
+      <configuration name="MockServiceTest.exeptionTestChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MockServiceTest_bookName_Cinderella_verify - 2019.05.03 at 17h 44m 13s.xml">
-      <configuration name="MockServiceTest.bookName_Cinderella_verify" configurationId="JUnit" />
+    <history-entry file="MockServiceTest_book_store_bookSize_verify - 2019.05.04 at 05h 50m 45s.xml">
+      <configuration name="MockServiceTest.book_store_bookSize_verify" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockServiceTest_book_store_bookSize_verify - 2019.05.04 at 05h 51m 31s.xml">
+      <configuration name="MockServiceTest.book_store_bookSize_verify" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockServiceTest_CheckStockBook - 2019.05.04 at 05h 53m 12s.xml">
+      <configuration name="MockServiceTest.CheckStockBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockServiceTest_CheckStockBook - 2019.05.04 at 05h 53m 31s.xml">
+      <configuration name="MockServiceTest.CheckStockBook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockServiceTest - 2019.05.04 at 17h 12m 49s.xml">
+      <configuration name="MockServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19194631" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22684564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,7 +362,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3323782" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32294616" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35835695" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,7 +370,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32664755" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32577905" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -318,23 +385,23 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.groovy" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/TestCase.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/TestSuite.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/MockServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/MockServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Book.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/MockRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -345,27 +412,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/MockRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/MockService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="551">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -374,8 +424,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/MockServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="229">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
