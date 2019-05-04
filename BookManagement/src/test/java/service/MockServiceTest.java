@@ -105,4 +105,13 @@ public class MockServiceTest{
         when(mockService.findByName("Cinderella")).thenReturn(new Book("Cinderella", "AlanAlexanderMilne", 15000));
         assertThat(mockService.findByName("Cinderella").getPrice(), is(books.get(1).getPrice()));
     }
+
+    //서점에서 "인어공주"라는 책을 저장하려고하면 오류를 던진다.
+    //ex. "인어공주"는 판매불가 책이라고 가정.
+    @Test(expected = IllegalArgumentException.class)
+    public void CheckStockBook(){
+        Book book = mock(Book.class);
+        doThrow(new IllegalArgumentException()).when(book).setName(eq("TheLittleMermaid"));
+        book.setName("TheLittleMermaid");
+    }
 }
